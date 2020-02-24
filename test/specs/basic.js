@@ -13,7 +13,7 @@ describe('GOOGLE SEARCH', () => {
         expect(title).equal('Google');
     });
 
-    it('should fill up input field', () => {
+    it('should fill up search input field', () => {
         const element = $('//input[@name="q"]');
         element.setValue('Kateryna Omelchenko');
         browser.pause(1000);
